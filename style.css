@@ -1,97 +1,164 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .product-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #29b1c0;
+  color: white;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+nav p{
+  margin: 0;
+  padding-right: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.logo{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-section {
+  padding: 10px 90px;
+  background-color: rgb(12, 80, 114);
+  color: white;
+  padding-bottom: 90px;
+  height: 500px;
+}
+
+
+.hero-section h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: lighter;
+  font-size: 90px;
+}
+
+
+.hero-section p{
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.hero-section div{
+  display: flex;
+  justify-content: center;
+  float: right;
+  align-items: center;
+  width: 50%;
+  height:0;
+  padding-right: 50px;
+}
+.hero-section div img{
+  width: 850px;
+  height: 500px;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  background-color:  white;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.product-card{
+  box-shadow: 0px 3px 10px #29b1c0;
+}
+.product-card h3{
+  color: #29b1c0;
+}
+.product-card p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.text{
+  background-color: #29b1c0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.btn {
+  background-color: #29b1c0;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn :hover{
+  color: white;
+}
+
+footer {
+  background-color: rgb(12, 80, 114);
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 50px;
+}
+
+.footer-logo{
+  font-size: 10px;
+}
+
+.footer-links ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.footer-links a{
+  text-decoration: none;
+  display: inline;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
   .product-card {
-    background-color: #f9f9f9;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    width: 300px;
-  }
-  
-  .product-card img {
     width: 100%;
-    margin-bottom: 20px;
   }
-  
-  button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
     align-items: center;
   }
-  
-  .footer-links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+  .footer-logo,
+  .footer-links {
+    text-align: center;
+    font-size: 5px;
   }
-  
+
   .footer-links ul li {
-    display: inline;
-    margin-right: 20px;
+    display: flex;
+    margin-bottom: 10px;
   }
-  
-  /* Media Queries */
-  @media screen and (max-width: 768px) {
-    .product-card {
-      width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    header {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-logo,
-    .footer-links {
-      text-align: center;
-    }
-  
-    .footer-links ul li {
-      display: block;
-      margin-bottom: 10px;
-    }
-  }
+}
