@@ -194,5 +194,6 @@ footer {
   .footer-links ul li {
     display: flex;
     margin-bottom: 10px;
+    font-size: 15px;
   }
 }
