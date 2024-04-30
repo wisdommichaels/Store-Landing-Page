@@ -148,19 +148,31 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .logo{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 25px;
+    width: 100%;
+  }
+  nav p{
+    display: none;
+  }
+
   product-card {
     width: 100%;
   }
   .hero-section h2{
-    font-size: 80px;
+    font-size: 70px;
     display: flex;
     align-items: center;
-    
+    width: 100%;
   }
   .hero-section p{
     display: flex;
     justify-items: center;
     font-size: 30px;
+    width: 100%;
   }
 
   .hero-section div{
