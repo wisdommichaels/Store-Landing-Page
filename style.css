@@ -1,5 +1,5 @@
 /* General styles */
-body {
+*{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ nav p{
   background-color: rgb(12, 80, 114);
   color: white;
   padding-bottom: 90px;
-  height: 500px;
+  height: 400px;
 }
 
 
@@ -39,6 +39,7 @@ nav p{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: lighter;
   font-size: 90px;
+  padding-top: 50px;
 }
 
 
@@ -55,6 +56,7 @@ nav p{
   width: 50%;
   height:0;
   padding-right: 50px;
+  padding-top: 65px;
 }
 .hero-section div img{
   width: 850px;
@@ -102,6 +104,8 @@ nav p{
 }
 
 .btn {
+  display: inline-block;
+  margin-top: 20px;
   background-color: #29b1c0;
   color: black;
   border: none;
@@ -144,11 +148,25 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .product-card {
+  product-card {
     width: 100%;
   }
-}
+  .hero-section h2{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .hero-section p{
+    display: flex;
+    justify-items: center;
+    font-size: 30px;
+  }
 
+  .hero-section div{
+    display: none;
+  }
+}
 @media screen and (max-width: 480px) {
   header {
     flex-direction: column;
