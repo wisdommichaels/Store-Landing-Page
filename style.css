@@ -62,7 +62,7 @@ nav p{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 
@@ -71,8 +71,7 @@ nav p{
   margin: 20px;
   padding: 20px;
   text-align: center;
-  width: 300px;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .product-card{
