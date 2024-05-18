@@ -25,8 +25,8 @@
   </nav>
 
   <ul class="flex justify-center items-center gap-7">
-    <li><a class="bg-[#2E5570] rounded-md px-3 py-1 hover:bg-white  hover:text-[#2E5570] font-semibold transition-colors duration-500" href="">Login</a></li>
-    <li><a class="bg-[#F4442C] rounded-md px-3 py-1 hover:bg-white hover:text-[#F4442C] font-semibold transition-colors duration-500" href="">Sign Up</a></li>
+    <li><a class="bg-[#2E5570] text-white rounded-md px-3 py-1 hover:bg-white  hover:text-[#2E5570] font-semibold transition-colors duration-500" href="">Login</a></li>
+    <li><a class="bg-[#F4442C] text-white rounded-md px-3 py-1 hover:bg-white hover:text-[#F4442C] font-semibold transition-colors duration-500" href="">Sign Up</a></li>
   </ul>
 
   </header>
@@ -35,7 +35,7 @@
     <div class=" bg-[#2E5570] py-1 flex justify-end items-center pr-10">
       <form class=" flex" action="">
         <input type="text" class="border h-3 rounded-lg px-5  py-4 text-black focus:outline-none" placeholder="Search....">
-                  <button class=" text-white bg-[#F4442C] hover:text-[#2E5570] px-2 pt-1 text-[12px] ml-2 rounded-md">
+                  <button class=" text-white bg-[#F4442C] transition-transform duration-200 transform hover:scale-110 hover:shadow-lg hover:text-[#2E5570] px-2 pt-1 text-[12px] ml-2 rounded-md">
                       <i class="fas fa-search">Search</i>
                   </button>
       </form>
@@ -47,7 +47,7 @@
         <h2 class="text-[82px] font-[impact] text-white">NEW ARRIVALS</h2>
         <p class=" text-white text-2xl mb-3">DAYS CAN'T START  WITHOUT <br> PERFECT SHOES.</p>
         <div>
-          <button class="flex justify-start items-start cursor-pointer bg-[#F4442C] text-white text-[12px] rounded-[2px] px-4 py-2 hover:bg-white hover:text-[#003459] transition-colors duration-500"><a href="#"><b>SHOP NOW</b></a></button>
+          <button class="flex justify-start items-start transition-transform duration-200 transform hover:scale-110 hover:shadow-lg cursor-pointer bg-[#F4442C] text-white text-[12px] rounded-[2px] px-4 py-2 hover:bg-white hover:text-[#003459] transition-colors duration-500"><a href="#"><b>SHOP NOW</b></a></button>
         </div>
       </div>
     <div class="flex justify-center items-start ml-10">
@@ -164,15 +164,43 @@
     </div>
   </section>
 
-  <footer>
-    <div class="footer-logo">
-      <h1>KICKS-BY-WIZZY</h1>
+  <section class="flex justify-between items-center bg-[#003459] pb-5 rounded-t-lg">
+    <div class="flex justify-center items-center mt-20 pl-20">
+        <h2 class="text-white text-2xl"><b>Register now so you don't miss <br> our programs</b></h2>
     </div>
-    <div class="footer-links">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-     </ul>
+    <div class="flex border rounded-md py-2 px-2  mt-20 mr-24 bg-[#FFFFFF]">
+        <form action="" method="post" class="flex border-[#99A2A5]">
+            <input type="email" name="email" id="email" placeholder="Enter your Email" class="border rounded-md py-1 pl-5 pr-36 border-[#99A2A5] mr-3">
+            <button class="bg-[#003459] rounded-md transition-transform duration-200 transform hover:scale-110 hover:shadow-lg hover:bg-[#2E5570] text-white px-4 py-1 pt-0">Subscribe Now</button>
+        </div>
+       </form>
+</section>
+
+<section class="flex justify-between bg-[#003459] pt-4 pb-8"> 
+    <nav class=" flex pl-20 cursor-pointer">
+        <ul class=" flex gap-8 text-white">
+            <li>Home</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>FAQs</li>
+        </ul>
+    </nav>
+    <div class="flex gap-8 pr-24 text-white">
+        <a href=""><img class="w-5 transition-transform duration-200 transform hover:scale-110 hover:shadow-lg" src="./Asset/icons8-facebook-50.png" alt=""></a>
+        <a href=""><img class="w-5 transition-transform duration-200 transform hover:scale-110 hover:shadow-lg" src="./Asset/twiter.png" alt=""></a>
+        <a href=""><img class="w-5 transition-transform duration-200 transform hover:scale-110 hover:shadow-lg" src="./Asset/instagramwhite.png" alt=""></a>
+        <a href=""><img class="w-5 transition-transform duration-200 transform hover:scale-110 hover:shadow-lg" src="./Asset/you tube.png" alt=""></a>
+   </div>
+</section>
+
+<section class="bg-[#003459]">
+  <div class="flex justify-center items-center border rounded-full border-[#bfbfc1] ml-20 mr-24"></div>
+</section>
+<footer class="flex justify-between items-center bg-[#003459] pb-10 text-[#99A2A5] pt-6">
+    <p class="ml-20">© 2024 WizzyTech. All rights reserved.</p>
+    <div class="flex gap-8 mr-24">
+      <a href="">Terms of Service</a>
+      <a href="">Privacy Policy</a>
     </div>
+</footer>
