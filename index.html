@@ -5,23 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header>
     <div class="logo">
-      <h1>KICKS-BY-WIZZY</h1>
+      <h1 class="font-bold">KICKS-BY-WIZZY</h1>
     </div>
     <nav>
-      <p>TOP BRAND SHOES AT BEST PRICE</p>
+      <ul class="flex justify-center items-center gap-8">
+        <li><a class="hover hover:text-[#F4442C]" href="#">Home</a></li>
+        <li><a class="hover hover:text-[#F4442C]" href="#">Products</a></li>
+        <li><a class="hover hover:text-[#F4442C]" href="#">About Us</a></li>
+        <li><a class="hover hover:text-[#F4442C]" href="#">Contact</a></li>
+     </ul>
+     <nav>
     </nav>
+  </nav>
+
+  <ul class="flex justify-center items-center gap-7">
+    <li><a class="bg-[#2E5570] rounded-md px-3 py-1 hover:bg-white  hover:text-[#2E5570] font-semibold transition-colors duration-500" href="">Login</a></li>
+    <li><a class="bg-[#F4442C] rounded-md px-3 py-1 hover:bg-white hover:text-[#F4442C] font-semibold transition-colors duration-500" href="">Sign Up</a></li>
+  </ul>
+
   </header>
 
-  <section class="hero-section">
-    <h2>NEW ARRIVALS</h2>
-    <div><img src="./asset/sneaks.png" alt="a pare of sneakers"></div>
-    <p>DAYS CANT START <br> WITHOUT PERFECT <br> SHOES.</p>
-    <a href="#" class="btn"><b>SHOP NOW</b></a>
+  <section>
+    <div class=" bg-[#2E5570] py-1 flex justify-end items-center pr-10">
+      <form class=" flex" action="">
+        <input type="text" class="border h-3 rounded-lg px-5  py-4 text-black focus:outline-none" placeholder="Search....">
+                  <button class=" text-white bg-[#F4442C] hover:text-[#2E5570] px-2 pt-1 text-[12px] ml-2 rounded-md">
+                      <i class="fas fa-search">Search</i>
+                  </button>
+      </form>
+    </div>
   </section>
+
+  <section class="flex justify-center bg-[#003459] py-10">
+    <div class="flex justify-center flex-col">
+        <h2 class="text-[82px] font-[impact] text-white">NEW ARRIVALS</h2>
+        <p class=" text-white text-2xl mb-3">DAYS CAN'T START  WITHOUT <br> PERFECT SHOES.</p>
+        <div>
+          <button class="flex justify-start items-start cursor-pointer bg-[#F4442C] text-white text-[12px] rounded-[2px] px-4 py-2 hover:text-[#003459] transition-colors duration-500"><a href="#"><b>SHOP NOW</b></a></button>
+        </div>
+      </div>
+    <div class="flex justify-center items-start ml-10">
+      <img class="w-[500px]" src="./asset/sneaks.png" alt="a pare of sneakers">
+    </div>
+  </section>
+
+  <section class="flex justify-start items-center pl-32 pr-32 py-2 bg-slate-300">
+    <div  class="flex justify-center items-center gap-16 mx-5 ">
+        <img class="w-16" src="./asset/log2.png" alt="">
+        <img class="w-20" src="./asset/log1.png" alt="">
+        <img class="w-20" src="./asset/log3.png" alt="">
+        <img class="w-16" src="./asset/log4.png" alt="">
+        <img class="w-[100px]" src="./asset/log7.png" alt="">
+        <img class="w-20" src="./asset/log5.png" alt="">
+        <img class="w-[65px]" src="./asset/log6.png" alt="">
+    </div>
+</section>
 
   <section class="product-section">
     <div class="product-card">

@@ -6,32 +6,27 @@
 }
 
 header {
-  background-color: #29b1c0;
-  color: white;
-  padding: 0px 50px;
+  background-color: #CBD5E1;
+  color: #003459;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 80px;
+  padding: 20px 40px;
+  font-weight: bold;
+ 
 }
 
 nav p{
   margin: 0;
-  padding-right: 10px;
+  padding-right: 10x;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .logo{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.hero-section {
-  padding: 10px 90px;
-  background-color: rgb(12, 80, 114);
-  color: white;
-  padding-bottom: 90px;
-  height: 400px;
+  font-size: 20px;
+  font-weight: 300px;
 }
 
 
@@ -101,21 +96,6 @@ nav p{
   padding: 0;
   margin: 0;
   width: 100%;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  background-color: #29b1c0;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-decoration: none;
-}
-.btn :hover{
-  color: white;
 }
 
 footer {
