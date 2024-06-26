@@ -34,8 +34,10 @@
   <section class="">
     <div class=" bg-[#2E5570] py-1 flex justify-center items-center">
       <form class=" flex justify-center items-center w-full" action="">
-           <i class="fas fa-search font-bold bg-white text-[19px] text-[#9CA3AF] py-[11px] pl-3 rounded-l-2xl"></i>
-           <input type="text" class="border w-[600px] rounded-2xl rounded-l-none pl-1  py-[7.4px] text-black focus:outline-none" placeholder="Search products brand and categories...">
+        <div class="focus-within:border-[#d01e1b] border-black rounded-2xl flex overflow-hidden px-2 bg-white items-center gap-2 border-4" >
+          <i class="fas fa-search font-bold text-[19px] text-[#9CA3AF]"></i>
+          <input type="text" class=" w-[600px]  py-[7.4px] text-black focus:outline-none border-none" placeholder="Search products brand and categories...">
+        </div>   
            <button class=" text-white bg-[#FE2A55] transition-transform duration-200 transform hover:scale-110 hover:shadow-lg hover:text-[#2E5570] font-bold py-3 px-5 text-[12px] ml-2 rounded-2xl">
               Search
           </button>
@@ -52,7 +54,7 @@
         </div>
       </div>
     <div class="flex justify-center items-start ml-10">
-      <img class="w-[500px]" src="./asset/sneaks.png" alt="a pare of sneakers">
+      <img class="w-[500px] hidden md:block" src="./asset/sneaks.png" alt="a pare of sneakers">
     </div>
   </section>
 
@@ -74,7 +76,9 @@
     </div>
   <section class="product-section mt-0 rounded-t-none bg-slate-300 ">
     <div class=" w-1/6 product-card transition-transform transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+      <div class=" mb-3 w-full aspect-square overflow-hidden flex justify-center items-center">
       <img class=" mb-3" src="./asset/addidas.jpg" alt="Product 1">
+      </div>
       <p class="text-[14px] mb-2"><b>ADDIDAS SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
         <span class="text-yellow-500 text-md">★</span>
@@ -88,7 +92,7 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
    </div>
 
-    <div class=" w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <img class="mb-3" src="./asset/IMG_15.PNG" alt="Product 1">
       <p class="text-[14px] mb-2"><b>UNISEX SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
@@ -103,9 +107,11 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
     </div>
     </div>
-    <div class=" w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6  product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <h3></h3>
-      <img class="mb-3" src="./asset/IMG_20.PNG" alt="Product 1">
+      <div class=" mb-3 w-full aspect-square overflow-hidden flex justify-center items-center">
+        <img class="w-full" src="./asset/IMG_20.PNG" alt="Product 1">
+      </div>
       <p class="text-[14px] mb-2"><b>UNISEX SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
         <span class="text-yellow-500 text-md">★</span>
@@ -119,8 +125,10 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
   
     </div>
-    <div class=" w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+      <div class=" mb-3 w-full aspect-square overflow-hidden flex justify-center items-center">
       <img class="w-[40px] mb-3" src="./asset/rbg.png" alt="Product 1">
+      </div>
       <p class="text-[14px] mb-2"><b>NIKE-AIR SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
         <span class="text-yellow-500 text-md">★</span>
@@ -134,9 +142,11 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
   
     </div>
-    <div class=" w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <h3></h3>
+      <div class=" mb-3 w-full aspect-square overflow-hidden flex justify-center items-center">
       <img class="w-[40px] mb-3" src="./asset/IMG_14.PNG" alt="Product 1">
+      </div>
       <p class="text-[14px] mb-2"><b>UNISEX SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
         <span class="text-yellow-500 text-md">★</span>
@@ -150,7 +160,7 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
   
     </div>
-    <div class=" w-1/6 product-card mt-0 transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card mt-0 transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <img class="mb-3" src="./asset/IMG_12.PNG" alt="Product 1">
       <p class="text-[14px] mb-2"><b>TRENDY SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
@@ -165,7 +175,7 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
   
     </div>
-    <div class=" w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <h3></h3>
       <img class="mb-3" src="./asset/IMG_10.PNG" alt="Product 1">
       <p class="text-[14px] mb-2"><b>NIKE-AIR SNEAKERS</b></p>
@@ -181,7 +191,7 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
   
     </div>
-    <div class=" w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <img class="mb-3" src="./asset/IMG_11.PNG" alt="Product 1">
       <p class="text-[14px] mb-2"><b>NIKE-AIR SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
@@ -195,7 +205,7 @@
       <P class="font-bold mb-2">₦25,000</P>
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
     </div>
-    <div class=" w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <img class="w-[40px] mb-3" src="./asset/IMG_16.PNG" alt="Product 1">
       <p class="text-[14px] mb-2"><b>NIKE-AIR SNEAKERS</b></p>
       <div class="flex justify-center items-center  mb-1">
@@ -210,7 +220,7 @@
       <a href="#" class="btn text-[14px] bg-slate-400 px-3 py-2 rounded-sm hover:bg-[#003459] hover:text-white font-semibold transition-colors duration-500"><b>Shop Now</b></a>
   
     </div>
-    <div class=" w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
+    <div class=" w-[90%] md:w-1/6 product-card mt-0 product-card transition-transform  transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-[2px] px-2 py-2 hover:shadow- duration-500">
       <img class="w-[40px] mb-3" src="./asset/IMG_17.PNG" alt="Product 1">
       <p class="text-[14px] mb-2"><b>TIMBER LAND</b></p>
       <div class="flex justify-center items-center  mb-1">
