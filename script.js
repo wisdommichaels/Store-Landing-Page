@@ -5,3 +5,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
 
     // Here you can add your form validation and authentication logic
+
+    console.log('Email:', email);
+    console.log('Password:', password);
+
+    // For demonstration, showing an alert
+    alert('Login attempt made! Check console for details.');
+});
